@@ -1,0 +1,623 @@
+body, h1, h2, h3, h4, h5, h6,p{
+    margin: 0px auto;
+} 
+
+.container{
+    max-width: 1200px;
+    min-width: 400px;
+    height: 100%;
+    margin: 0px auto;
+} 
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul li{
+    list-style: none;
+}
+.flexbox{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.justify-content-evenly{
+    justify-content: space-evenly;
+}
+.justify-content-around{
+    justify-content: space-around;
+}
+.align-content-between{
+    align-content: space-between;
+}
+.align-content-around{
+    align-content: space-around;
+}
+
+/* Nav Section Start */
+.nav-section{
+    height: auto;
+}
+.logo{
+    flex-basis: 10%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.logo img{
+    padding: 30px;
+    margin-left: 15px;
+}
+.navbar-nav{
+    flex-basis: 70%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.navbar-nav ul li{
+    padding: 20px;
+}
+.navbar-nav ul li a{
+    color:#000000;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 29px;
+    font-family: Catamaran, sans-serif;
+}
+.navbar-nav ul li a:hover{
+    color: #fb5c42;
+}
+.cart{
+    flex-basis: 10%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.cart ul li {
+    background-color: #EEEEEE;
+    padding : 7px;
+    margin-top: 15px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+/* Nav Section End */
+
+/* Header Section Start */
+header{
+    background-image: url(../Photos/slideshow.jpg) ;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    overflow: hidden;
+}
+.header-blank{
+    flex-basis: 40%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.header-content{
+    flex-basis: 40%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 200px 0px;
+}
+.header-content p{
+    margin-top: -20px;
+    color:#212529;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 34px;
+    font-family: Catamaran, sans-serif;
+}
+.header-content h1{
+    margin-top: 10px;
+    margin-right: -100px;
+    margin-bottom: 50px;
+    color:#000000;
+    font-size: 90px;
+    font-weight: 800;
+    line-height: 90px;
+    font-family: Poppins, sans-serif;
+}
+.header-content h1 span{
+    color:#fb5c42;
+}
+.header-content a{
+    background-color: #fb5c42;
+    padding: 15px 30px;
+    color:#ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    font-family: Catamaran, sans-serif;
+} 
+.header-content a:hover{
+    background-color: #000000;
+}
+/* Header Section End */
+
+/* First Section Start */
+.ads{
+    margin-top: 30px;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.watch{
+    flex-basis: 30%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-image: url(../Photos/watch.jpg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    margin: 10px;
+    background-size: cover;
+}
+.bag{
+    flex-basis: 30%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-image: url(../Photos/bag.jpg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    margin: 10px;
+    background-size: cover;
+}
+.shoe{
+    flex-basis: 30%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-image: url(../Photos/shoe.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    margin: 10px;
+}
+.ads h2{
+    color:#757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 31px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+.ads p{
+    color:#000000;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26px;
+    font-family: Catamaran, sans-serif;
+}
+.ads a{
+    color:#fb5c42;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    font-family: Catamaran, sans-serif;
+}
+.ads .text{
+    margin: 50px 0px 50px 200px;
+}
+/* First Section End */
+
+/* Shopping Section Start */
+.arrivals{
+    margin-top: 30px;
+}
+.arrivals h2{
+    color:#000000;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 48px;
+    font-family: Poppins, sans-serif;
+    text-align: center;
+}
+.arrivals p{
+    color:#757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: center;
+}
+.dress1{
+    flex-basis: 15%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: #ffffff;
+    margin: 20px 15px 0px 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.dress2{
+    flex-basis: 15%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: #ffffff;
+    margin: 20px 15px 0px 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.dress3{
+    flex-basis: 15%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: #ffffff;
+    margin: 20px 15px 0px 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.dress4{
+    flex-basis: 15%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: #ffffff;
+    margin: 20px 15px 0px 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.catalogue-2{
+    margin-top: -30px;
+}
+.catalogue-1, .catalogue-2, h3{
+    color:#000000;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.6px;
+    font-family: Catamaran, sans-serif;
+    margin-top: 10px;
+    text-align: center;
+}
+.catalogue-1, .catalogue-2, p{
+    color:#777777;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.6px;
+    font-family: "Source Sans Pro" sans-serif;
+    margin-top: 5px;
+}
+.catalogue-1 ul{
+    margin-left: 50px;
+}
+.catalogue-1 ul li{
+   margin-top: -170px;
+}
+.catalogue-1  ul li i{
+    background-color: #000000;
+    padding: 10px;
+    margin: 0px 5px;
+    border-radius: 50%;
+    visibility: hidden;
+}
+.catalogue-2 ul{
+    margin-left: 50px;
+}
+.catalogue-2 ul li{
+   margin-top: -170px;
+}
+.catalogue-2 ul li i{
+    background-color: #000000;
+    padding: 10px;
+    margin: 0px 5px;
+    border-radius: 50%;
+    visibility: hidden;
+}
+.catalogue-1 .dress1:hover > ul li i{
+    visibility: visible;
+}
+.catalogue-1 .dress2:hover > ul li i{
+    visibility: visible;
+}
+.catalogue-1 .dress3:hover > ul li i{
+    visibility: visible;
+}
+.catalogue-1 .dress4:hover > ul li i{
+    visibility: visible;
+}
+.catalogue-2 .dress1:hover > ul li i{
+    visibility: visible;
+}
+.catalogue-2 .dress2:hover > ul li i{
+    visibility: visible;
+}
+.catalogue-2 .dress3:hover > ul li i{
+    visibility: visible;
+}
+.catalogue-2 .dress4:hover > ul li i{
+    visibility: visible;
+}
+.catalogue-1 ul li i:hover{
+    background-color: #fb5c42;
+}
+.catalogue-2 ul li i:hover{
+    background-color: #fb5c42;
+}
+/* Shopping Section End */
+
+/* Counter Section Start */
+.counter{
+    background-image: url(../Photos/counter.jpg) ;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    margin-top: 80px;
+}
+.counter-blank{
+    flex-basis: 40%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.counter-content{
+    flex-basis: 40%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 80px 0px;
+}
+.counter-content p{
+    text-align: center;
+    margin-right: 550px;
+    color:#222222;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    font-family: Catamaran, sans-serif;
+    background-color: #E7B6BF;
+}
+.counter-content h2{
+    color:#ffffff;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    font-family:  Catamaran, sans-serif;
+    margin-top:15px;
+    text-align: left;
+}
+.counter-content h3{
+    color:#ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: left;
+    margin-top: 30px;
+}
+.counter-content h4{
+    color:#757575;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 33px;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-top: 25px;
+}
+.counter-content a{
+    background-color: #fb5c42;
+    padding: 15px 30px;
+    color:#ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    font-family: Catamaran, sans-serif;
+    margin-top: 30px;
+} 
+.counter-content a:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+/* Counter Section End */
+
+/* list Section Start */
+.list-section{
+    padding: 50px ;
+}
+.list-section .side-img{
+    flex-basis: 30%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 20px 0px 20px 20px;
+}
+.list-section .list{
+    flex-basis: 60%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding:20px 10px;
+}
+.seller{
+    flex-basis: 40%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 0px 10px;
+}
+.new-arrivals{
+    flex-basis: 40%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 0px 10px;
+}
+.list-section h2{
+    color: #000000;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26px;
+    font-family: Catamaran, sans-serif;
+    border-bottom: 1px solid #E7E7E7;
+    padding-bottom: 10px;
+}
+.list-item{
+    margin-top: 10px;
+}
+.text-content{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.text-content p{
+    color: #000000;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: Catamaran, sans-serif;
+}
+/* list Section end */
+
+/* last section Start */
+.last-section{
+    margin-top: -50px;
+    border-top: 1px solid #e9e4e4;
+}
+.section-blank{
+    flex-basis: 10%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.section-content{
+    flex-basis: 20%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 30px 0px;
+}
+.section-content i{
+    padding: 10px;
+    margin-top: 20px;
+}
+.section-content #text{
+    margin-top:  20px;
+    margin-left: 20px;
+}
+#text h2{
+    color: #000000;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 24px;
+    font-family: Catamaran, sans-serif;
+}
+#text p{
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+/* last section end */
+
+/* footer section start */
+footer{
+    height: auto;
+    background-color: #F9F9F9;
+}
+.footer-blank{
+    flex-basis: 10%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.footer-content{
+    flex-basis: 15%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 70px 0px;
+}
+.footer-content2{
+    flex-basis: 40%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 70px 10px;
+    margin-right: 60px;
+    margin-left: 20px;
+}
+.footer-content2 img{
+    margin-bottom: 30px; 
+}
+.footer-content2 p{
+    text-align: left;
+    margin-bottom: 20px; 
+    color: #757575;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 34px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+.footer-content2 h3{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: left;
+    margin: 0px 0px 0px 0px;
+}
+.footer-content2 h3 span{
+    font-weight: 700;
+}
+.footer-content h2{
+    color: #000000;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26px;
+    font-family: Catamaran, sans-serif;
+    text-align: left;
+}
+.footer-content ul li a{
+    color: #757575;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+    font-family: Catamaran, sans-serif;
+    display: inline-block;
+    margin-left: -40px;
+    margin-bottom: 10px;
+}
+.footer-content ul li a:hover{
+    color: #fb5c42;
+}
+.footer-content ul li p{
+    color: #212529;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+    font-family: Catamaran, sans-serif;
+    display: inline-block;
+    margin-left: -40px;
+    margin-bottom: 10px;
+}
+.time{
+    margin-top: 45px;
+}
+.footer-content h5{
+    color: #000000;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 27px;
+    font-family: Catamaran, sans-serif;
+    margin-right: -100px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+}
+/* footer section end */
+
+/*bottom section start*/
+.bottom-section {
+    padding: 20px;
+}
+.bottom1{
+    flex-basis: 40%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.bottom-content{
+    flex-basis: 13%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.bottom1 h2{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+.bottom1 h2 span{
+    color: #fb5c42;
+}
+.bottom-content a{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+.bottom-content a:hover{
+    color: #fb5c42;
+}
+/*bottom section end*/

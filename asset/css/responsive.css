@@ -1,0 +1,46 @@
+@media (min-width: 400px) and (max-width: 1200px) {
+    .logo{
+        margin-top: 10px;
+    }
+    header{
+        margin-top: -10px;
+    }
+    .header-content {
+        margin-top: -20px;
+        margin-left: 25px;
+    }
+    .header-content h1{
+        font-size: 60px;
+        font-weight: 800;
+        line-height: 60px;
+    }
+    .ads{
+        margin-right: 10px;
+    }
+    .catalogue-1, .catalogue-2{
+        flex-wrap: wrap;
+    }
+    .catalogue-1 ul li , .catalogue-2 ul li {
+      margin-left: 30px;
+    }
+    .counter-content{
+        padding-left: 10px;
+    }
+    .counter-content p{
+        margin-right:200px;
+    }
+    .list-section{
+        flex-wrap: wrap;
+    }
+    .list-section img{
+        margin-left: -50px;
+    }
+    .seller h2, .new-arrivals h2{
+        margin-left: -50px;
+    }
+    .list{
+        margin-top: -50px;
+        margin-left: -10px;
+        flex-wrap: wrap;
+    }
+}
